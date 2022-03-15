@@ -4,10 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>上海疫情地图</title>
+    <title>筑语</title>
+    <link rel="stylesheet" href="index2.css">
+    <script src="index2.js">
+    </script>
 </head>
 <body>
-    <div>疫情地图</div>
-    <iframe src="https://www.google.com/maps/d/embed?mid=1TBKCM8q9Q2XgOZMgClZkezlN78jfvCFQ&ehbc=2E312F" width="640" height="480"></iframe>
+    <div class="guidebar">
+        <li class="first"><a href="#" target="_blank">建筑</a></li>
+        <li><a href="#" target="_blank">设计师</a></li>
+        <li><a href="#" target="_blank">话题</a></li>
+        <li><a href="#" target="_blank">关于</a></li>
+        <li><a href="#" target="_blank">登陆</a></li>
+        <li class="last"><a href="#" target="_blank">注册</a></li>
+    </div>
+    <div >
+        <form class="search" action="" >
+            <input class="searchbar" type="text" value="筑语搜索..." 
+            onclick="this.value = '' ">
+            <input class="searchbtn" type="submit" value="   O  ">
+            
+        </form>
+        
+    </div>
+  
+    <div class="result-area">
+        <div class="result-row">
+            <img src="ahbei lecture.jpg" id="num" alt="" >
+        </div>
+        <div class="next">
+            <button id="ne" onclick="slide()">></button>
+            <button id="ne2" onclick="slide2()"><</button>
+        </div>
+    </div>
+    
 </body>
 </html>
