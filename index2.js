@@ -1,6 +1,6 @@
         //输入框点击清空
         var clear=document.querySelector('.searchbar');
-        search_hint="筑语搜索...";
+        var search_hint="筑语搜索...";
         clear.value=search_hint;
         clear.onfocus = function(){
             if(this.value==search_hint){
