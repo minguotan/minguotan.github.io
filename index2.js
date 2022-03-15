@@ -1,15 +1,15 @@
         //输入框点击清空
         var clear=document.querySelector('.searchbar');
-        var search_hint="筑语搜索...";
+        search_hint = '筑语搜索...';
         clear.value=search_hint;
         clear.onfocus = function(){
             if(this.value==search_hint){
             this.style.color="black";
-            this.value='';
+            this.value=' ';
             }
         }
         clear.onblur=function(){
-            if(this.value==''){
+            if(this.value==' '){
             this.style.color= "rgb(192, 192, 192)";
             this.value=search_hint;
             }
