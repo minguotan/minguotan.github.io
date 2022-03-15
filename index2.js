@@ -1,7 +1,17 @@
         //输入框点击清空
-        // var clear=document.querySelector(".searchbar");
-        // console.log(clear);//此处为啥是null
-        // clear.onlick="";
+        var clear=document.querySelector('.searchbar');
+        clear.onfocus=function(){
+            if(this.value=='筑语搜索...'){
+            this.style.color="black";
+            this.value='';
+            }
+        }
+        clear.onblur=function(){
+            if(this.value==''){
+            this.style.color= "rgb(192, 192, 192)";
+            this.value='筑语搜索...';
+            }
+        }
         var i=0;
         function change(){
             switch(i){
