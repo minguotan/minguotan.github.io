@@ -60,7 +60,7 @@ padding-left: 13px;
 }
 .searchbtn{
     position: absolute ;
-    right:-1px;
+    right:1px;
     top:1px;
     background-color: rgb(250, 250, 250);
     color: lightgray;
