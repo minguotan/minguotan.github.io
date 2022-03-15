@@ -23,7 +23,7 @@
                break;
                default:
                document.getElementById("num").src=
-               "https://raw.githubusercontent.com/minguotan/img/main/109.jpg";
+               "https://raw.githubusercontent.com/minguotan/img/main/096.jpg";
             }
         }
         function slide(){
