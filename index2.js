@@ -7,23 +7,23 @@
             switch(i){
                 case 0 :
                document.getElementById("num").src=
-               "../02-CSStext/ahbei lecture.jpg";
+               "https://raw.githubusercontent.com/minguotan/img/main/096.jpg";
                break;
                case 1 :
                document.getElementById("num").src=
-               "../02-CSStext/077-078.jpg";
+               "https://raw.githubusercontent.com/minguotan/img/main/102.jpg";
                break;
                case 2 :
                document.getElementById("num").src=
-               "../02-CSStext/109.jpg";
+               "https://raw.githubusercontent.com/minguotan/img/main/107.jpg";
                break;
                case 3 :
                document.getElementById("num").src=
-               "../02-CSStext/080.jpg";
+               ".https://raw.githubusercontent.com/minguotan/img/main/108.jpg";
                break;
                default:
                document.getElementById("num").src=
-               "../02-CSStext/ahbei lecture.jpg";
+               "https://raw.githubusercontent.com/minguotan/img/main/109.jpg";
             }
         }
         function slide(){
