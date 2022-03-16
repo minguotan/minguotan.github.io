@@ -23,7 +23,7 @@
                break;
                case 1 :
                document.getElementById("num").src=
-               "https://www.jianguoyun.com/c/tblv2/wyEEQ0jbwCXpm8nDEN-9oHcpVqYyuFpfSwGP3Lh6mp087izqTo6SUnxfmKYjqpTOTrIxtraz/-rSJVcF6-1bOF8AH6-9haw/l";
+               "https://raw.githubusercontent.com/minguotan/img/main/102.jpg";
                break;
                case 2 :
                document.getElementById("num").src=
