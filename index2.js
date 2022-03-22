@@ -19,23 +19,23 @@
             switch(i){
                 case 0 :
                document.getElementById("num").src=
-               "https://raw.githubusercontent.com/minguotan/img/main/096.jpg";
+               "https://reurl.cc/pWer1l";
                break;
                case 1 :
                document.getElementById("num").src=
-               "https://raw.githubusercontent.com/minguotan/img/main/102.jpg";
+               "https://reurl.cc/pWerLx";
                break;
                case 2 :
                document.getElementById("num").src=
-               "https://raw.githubusercontent.com/minguotan/img/main/107.jpg";
+               "https://reurl.cc/9Om7Vj";
                break;
                case 3 :
                document.getElementById("num").src=
-               "https://raw.githubusercontent.com/minguotan/img/main/108.jpg";
+               "https://reurl.cc/WkKRGZ";
                break;
                default:
                document.getElementById("num").src=
-               "https://raw.githubusercontent.com/minguotan/img/main/096.jpg";
+               "https://reurl.cc/pWer1l";
             }
         }
         function slide(){
