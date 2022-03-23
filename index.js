@@ -15,23 +15,23 @@
             switch(i){
                 case 0 :
                pic.src=
-               "https://raw.githubusercontent.com/minguotan/img/main/096.jpg";
+               "https://s1.ax1x.com/2022/03/23/q3CbPH.jpg";
                break;
                case 1 :
                pic.src=
-               "https://raw.githubusercontent.com/minguotan/img/main/102.jpg";
+               "https://s1.ax1x.com/2022/03/23/q3PVs0.jpg";
                break;
                case 2 :
                pic.src=
-               "https://raw.githubusercontent.com/minguotan/img/main/107.jpg";
+               "https://s1.ax1x.com/2022/03/23/q3PmZT.jpg";
                break;
                case 3 :
                pic.src=
-               "https://raw.githubusercontent.com/minguotan/img/main/109.jpg";
+               "https://s1.ax1x.com/2022/03/23/q3Pkzn.jpg";
                break;
                default:
                pic.src=
-               "https://raw.githubusercontent.com/minguotan/img/main/096.jpg";
+               "https://s1.ax1x.com/2022/03/23/q3CbPH.jpg";
             }
         }
         function slide(){
