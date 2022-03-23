@@ -1,0 +1,117 @@
+.nav_wrap {
+  display: relative;
+  margin: 20% auto 0 auto;
+}
+table {
+  border-collapse: collapse;
+  width: 92.8vw;
+  margin: 0 auto;
+}
+table,
+th {
+  border-left: 0.37333333vw solid lightgray;
+  border-right: 0.37333333vw solid lightgray;
+}
+.nav th {
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav th a {
+  display: inline-block;
+  color: gray;
+  text-decoration: none;
+  font-size: 3.46666667vw;
+  padding-left: 0.53333333vw;
+  padding-right: 0.53333333vw;
+  letter-spacing: 0.8vw;
+  text-indent: 0vw;
+}
+.nav th:hover {
+  background-color: #e6e6e6;
+  color: white;
+}
+.nav_wrap .search {
+  position: relative;
+  padding: 0;
+  border-radius: 1.33333333vw;
+  margin: 2.66666667vw auto 0 auto;
+  width: 93.33333333vw;
+  height: 10.66666667vw;
+  line-height: 10.66666667vw;
+  background-color: #fafafa;
+  overflow: hidden;
+}
+.nav_wrap .searchbar {
+  position: absolute;
+  background: none;
+  width: 89.33333333vw;
+  height: 10.13333333vw;
+  border: 0.26666667vw solid lightgray;
+  border-radius: 1.33333333vw;
+  line-height: 10.66666667vw;
+  font-size: 4vw;
+  font-style: italic;
+  text-align: left;
+  color: #c0c0c0;
+  padding: 0;
+  padding-left: 3.46666667vw;
+}
+.nav_wrap .searchbtn {
+  position: absolute ;
+  right: 0.53333333vw;
+  top: 0.26666667vw;
+  background-color: #fafafa;
+  color: lightgray;
+  border: none;
+  border-radius: 0.8vw;
+  padding: 0;
+  height: 10.13333333vw;
+  line-height: 10.13333333vw;
+  font-size: 5.33333333vw;
+  text-align: center;
+  font-style: italic;
+  font-weight: 300;
+}
+.nav_wrap .searchbtn:hover {
+  background-color: lightgray;
+  color: white;
+}
+.image_wrap {
+  position: relative;
+  width: 93.33333333vw;
+  height: 93.33333333vw;
+  /* border: 1vw/@vv solid lightgray; */
+  margin: 4vw auto;
+  text-align: center;
+  letter-spacing: 0.26666667vw;
+}
+img {
+  width: 93.33333333vw;
+  height: 93.33333333vw;
+  object-fit: cover;
+}
+.next button {
+  display: none;
+  position: absolute;
+  width: 13.33333333vw;
+  height: 13.33333333vw;
+  border-radius: 6.66666667vw;
+  border: none;
+  background-color: black;
+  color: white;
+  line-height: 5.33333333vw;
+  font-size: 6.66666667vw;
+  font-weight: bolder;
+  opacity: 30%;
+}
+#ne {
+  right: 1.33333333vw;
+  top: 45.33333333vw;
+}
+#ne2 {
+  left: 1.33333333vw;
+  top: 45.33333333vw;
+}
+.image_wrap:hover button {
+  display: inline;
+}
