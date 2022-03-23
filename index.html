@@ -5,40 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css_reset.css">
-    <link rel="stylesheet" href="index3.css">
+    <link rel="stylesheet" href="css_reset.css" >
+    <link rel="stylesheet" media="screen and (min-width:1px) and (max-width:500px)" href="index_mobile.css">
+    <link rel="stylesheet" media="screen and (min-width:500px)" href="index.css">
 </head>
 <body>
-    <!-- //20220323
-        1.应用flex弹性盒子，修改主页布局
-        2. 移动端适配index3_mobile
-      -->
-      <div class="nav_wrap">
-          <table class="nav">
-            <th class="first"><a href="#" target="_blank">建筑</a></th>
-            <th><a href="#" target="_blank">设计师</a></th>
-            <th><a href="#" target="_blank">话题</a></th>
-            <th><a href="#" target="_blank">关于</a></th>
-            <th><a href="#" target="_blank">登陆</a></th>
-            <th class="last"><a href="#" target="_blank">注册</a></th>
-          </table>
-          <form class="search">
-              <input class="searchbar" type="text" placeholder="筑语搜索...">
-              <input class="searchbtn" type="submit" value="   O  ">
+    <div class="nav_wrap">
+        <table class="nav">
+          <th class="first"><a href="#" target="_blank">建筑</a></th>
+          <th><a href="#" target="_blank">设计师</a></th>
+          <th><a href="#" target="_blank">话题</a></th>
+          <th><a href="#" target="_blank">关于</a></th>
+          <th><a href="#" target="_blank">登陆</a></th>
+          <th class="last"><a href="#" target="_blank">注册</a></th>
+        </table>
+        <form class="search">
+            <input class="searchbar" type="text" placeholder="筑语搜索...">
+            <input class="searchbtn" type="submit" value="   O  ">
 
-              </button>
-            </form>
+            </button>
+          </form>
+    </div>
+    <div class="image_wrap">
+      <div class="result-row">
+          <img src="ahbei lecture.jpg" id="num" alt="" >
       </div>
-      <div class="image_wrap">
-        <div class="result-row">
-            <img src="https://cvws.icloud-content.com/S/AWKoIo_bnHaSkW3ZwzH7B_r2dxaK/3800278A-9A62-4E62-9833-0C0F5F1E3287.JPG?o=AjMLO0HDeFF1SbkTMLW_V-bA0vtL43gvQw5TFSxDZE1W&v=1&z=https%3A%2F%2Fp37-content.icloud.com%3A443&x=1&a=CAogleFdL6lyWQwZ369ng4614rcls-m-2JXTK3alcwZoa6YSaRCYx_yw-y8YmN6PtvsvIgEAUgT2dxaKaic7GbCLV7IJEG6CwrHcsvQuZOtgU4NdfsHIypTXiYxuCcpVGMswLYNyJ6zFL6tzr71Qp6eNW28bmES7MrDQuG0n5HjGOB17iHCY1UFd8EIkqw&e=1648038768&r=0576db7c-6d51-48cb-adaf-39c9a7d99518-1&s=4Pw2Z8yNpIn6Y9wBm3QnXUb4BY4" id="num" alt="" >
-        </div>
-        <div class="next">
-            <button id="ne" onclick="slide()">></button>
-            <button id="ne2" onclick="slide2()"><</button>
-        </div>
+      <div class="next">
+          <button id="ne" onclick="slide()">></button>
+          <button id="ne2" onclick="slide2()"><</button>
       </div>
-
+    </div>
 </body>
-<script src="index3.js"></script>
+<script src="index.js"></script>
 </html>
