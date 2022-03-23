@@ -79,7 +79,6 @@ th {
 .image_wrap {
   position: relative;
   width: 93.33333333vw;
-  height: 93.33333333vw;
   /* border: 1vw/@vv solid lightgray; */
   margin: 4vw auto;
   text-align: center;
@@ -87,7 +86,7 @@ th {
 }
 img {
   width: 93.33333333vw;
-  height: 93.33333333vw;
+  height: 124.44533333vw;
   object-fit: cover;
 }
 .next button {
